@@ -6,18 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>yeoman</title>
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
-    <!-- build:css styles/vendor.css -->
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
-    <!-- endbuild -->
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-    <!-- build:js scripts/modernizr.js -->
-    <script src="scripts/modernizr.js"></script>
-    <!-- endbuild -->
-    <!-- cdn del css de chartist -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="./app/styles/main.css">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
   </head>
   <body>
    
@@ -26,7 +17,7 @@
       <div class="jumbotron">
         <div class="wrapper1">
           <h1 class="display-3">COVID-19</h1>
-          <p class="lead">Datos de los últimos 20 dias.</p>
+          <p class="lead">Gráfico de los últimos 20 dias.</p>
         </div>
         <div class="wrapper2">
           <select class="custom-select custom-select--miguel" id="inputGroupSelect01" >
@@ -48,14 +39,7 @@
       </div>
     </div>
   
-    <!-- cdn de libreria de chartist.js -->
     <script src="http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>      
-    <!-- build:js scripts/vendor.js -->
-    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- endbuild -->
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
+    <script src="app/scripts/main.js"></script>
   </body>
 </html>
